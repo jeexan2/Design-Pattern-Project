@@ -1,8 +1,9 @@
 using System;
 
-namespace POCO_CLASSES{
+namespace POCO{
 
     public class POCO_CLASSES{
-        
+        public string className {get;set;}
+        public string classId {get;set;}
     }
 }
