@@ -3,9 +3,8 @@ mono: none
 dotnet: 2.0.0
 
 
-script:
- - dotnet build
- - dotnet test MTAServiceStatus.Tests/MTAServiceStatus.Tests.cspr
+
+
 
 # blocklist
 branches:
