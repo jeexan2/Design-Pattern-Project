@@ -7,6 +7,7 @@ namespace Design_Pattern_Project
     {
      //  POCO_CLASSES p;
         //Changes in feature 2_1
+        //Stash checking
         static void Main(string[] args)
         {
             
