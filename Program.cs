@@ -10,7 +10,7 @@ namespace Design_Pattern_Project
         //Stash checking
         static void Main(string[] args)
         {
-            
+            POCO_CLASSES pOCO = new POCO_CLASSES();
             Console.WriteLine("Hello World!");
         }
     }
