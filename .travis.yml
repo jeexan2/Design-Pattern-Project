@@ -1,16 +1,12 @@
 language: csharp
 mono: none
-dotnet: 2.1.0
-
-install:
-- dotnet restore
-
-script:
- - dotnet build
- - dotnet test MTAServiceStatus.Tests/MTAServiceStatus.Tests.cspr
-
-# blocklist
+dotnet: 2.1.300-preview2-008530
+os:
+  - linux
 branches:
-  except:
-  - gh-pages
-  
+  only:
+    - master
+    - /^release\/.*$/
+    - /^feature\/.*$/
+    - develop
+script: dotnet build
